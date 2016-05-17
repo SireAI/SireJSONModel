@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		040ABF7390B906347DDA765998889023 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		0B328CD3A04658C8133C5B61088965CD /* SireJSONModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1BBBA22E05AD6D7929DADE04EB9874 /* SireJSONModel-dummy.m */; };
-		0C4E6F25A7AC98C3DBC411BEA1A31E83 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AA68CF6A01D25C64EA453C0A5416F6 /* ReplaceMe.swift */; };
 		105674971E296BDA2839D1EF0DA97AEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		1C5B44C81DDEA872F6ED111DE371E3C5 /* SireJSONModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1BBBA22E05AD6D7929DADE04EB9874 /* SireJSONModel-dummy.m */; };
 		738627761F277A33901F47B3D130BDCC /* Pods-SireJSONModel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BCE1E26A8F0D07CF4CF7C32EE7B0910 /* Pods-SireJSONModel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9095940124D5440ECD7577BE7D52E27F /* Pods-SireJSONModel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2A7C36F5B7C7921370A7E8CD1DFF43 /* Pods-SireJSONModel_Tests-dummy.m */; };
 		9E0D3B9C3B2D4A5D318B33CEF34ADD11 /* Pods-SireJSONModel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD6A71E0E386BEC8D1DD4B2D393BDA8 /* Pods-SireJSONModel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AABF1B1E76DA759DE25F2C7F53B63A24 /* Pods-SireJSONModel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F7469B60BECAF78DF1BC2436FC94F8 /* Pods-SireJSONModel_Example-dummy.m */; };
 		B4FA3E86B19F5255E96002DE7874429E /* SireJSONModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5FE22596247965F821EFD118344096 /* SireJSONModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C725D7752733AAAF1272A34ECB5D448A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F9F9112841FD792EB1B62C22B950E643 /* SireJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE267F0553E8F287AB4BEC1AD8194B3 /* SireJson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,9 +49,9 @@
 		6E1BBBA22E05AD6D7929DADE04EB9874 /* SireJSONModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SireJSONModel-dummy.m"; sourceTree = "<group>"; };
 		6F2A7C36F5B7C7921370A7E8CD1DFF43 /* Pods-SireJSONModel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SireJSONModel_Tests-dummy.m"; sourceTree = "<group>"; };
 		77A1B7DCD6643896DA5001FB2A0AA38F /* Pods-SireJSONModel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SireJSONModel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		79AA68CF6A01D25C64EA453C0A5416F6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		7A5FE22596247965F821EFD118344096 /* SireJSONModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SireJSONModel-umbrella.h"; sourceTree = "<group>"; };
 		8704D92C6B66C338BB8E124AEF782CCA /* Pods-SireJSONModel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SireJSONModel_Tests-resources.sh"; sourceTree = "<group>"; };
+		8EE267F0553E8F287AB4BEC1AD8194B3 /* SireJson.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SireJson.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96E19B4D6A52BA994E8892CF441ECC91 /* Pods-SireJSONModel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SireJSONModel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C1D7C4528B498448D4BD860F11104DE9 /* Pods-SireJSONModel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SireJSONModel_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 		20D0438FD401263C68BA85E9719B7926 /* SireJSONModel */ = {
 			isa = PBXGroup;
 			children = (
-				A663DF393402D4A599CA8AA6F76A1B88 /* SireJSONModel */,
+				CB6776174136C0D261CB57FF4C2FBED7 /* SireJSONModel */,
 				15D4E8B119CBA0B17ADC4BEFFB3EBEBB /* Support Files */,
 			);
 			name = SireJSONModel;
@@ -171,22 +171,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		8D85353D441954A330434D92FE5EC0D3 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				79AA68CF6A01D25C64EA453C0A5416F6 /* ReplaceMe.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		A663DF393402D4A599CA8AA6F76A1B88 /* SireJSONModel */ = {
-			isa = PBXGroup;
-			children = (
-				8D85353D441954A330434D92FE5EC0D3 /* Classes */,
-			);
-			path = SireJSONModel;
-			sourceTree = "<group>";
-		};
 		AA2642EBF136701C832979C043F15343 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -197,12 +181,28 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B2FD7CD6508DE4EB3A3E35E805686440 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8EE267F0553E8F287AB4BEC1AD8194B3 /* SireJson.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB6776174136C0D261CB57FF4C2FBED7 /* SireJSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				B2FD7CD6508DE4EB3A3E35E805686440 /* Classes */,
+			);
+			path = SireJSONModel;
 			sourceTree = "<group>";
 		};
 		E228E530085E3ABC3E6B96D327004A2D /* Targets Support Files */ = {
@@ -273,7 +273,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7541E29307E1B447481D0D119F46E240 /* Build configuration list for PBXNativeTarget "SireJSONModel" */;
 			buildPhases = (
-				A1F2470B93F5ED36C5E2BB7C5CF717C8 /* Sources */,
+				ECB88455D7B47338E57E84A9589BD1A8 /* Sources */,
 				24E91A7D3196EE46B3C32119F92C0C21 /* Frameworks */,
 				CA2050E7F022F7DD5BB73004F6E46687 /* Headers */,
 			);
@@ -333,15 +333,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A1F2470B93F5ED36C5E2BB7C5CF717C8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C4E6F25A7AC98C3DBC411BEA1A31E83 /* ReplaceMe.swift in Sources */,
-				0B328CD3A04658C8133C5B61088965CD /* SireJSONModel-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B12B2839C252D30AA4AF9B9B0E3E9B83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -355,6 +346,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				AABF1B1E76DA759DE25F2C7F53B63A24 /* Pods-SireJSONModel_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB88455D7B47338E57E84A9589BD1A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F9112841FD792EB1B62C22B950E643 /* SireJson.swift in Sources */,
+				1C5B44C81DDEA872F6ED111DE371E3C5 /* SireJSONModel-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

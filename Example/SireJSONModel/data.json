@@ -1,0 +1,616 @@
+{
+    "Code": 1,
+    "Msg": "成功",
+    "Result": {
+        "FocusMaps": [
+                      {
+                      "Description": "",
+                      "Title": "兑吧活动",
+                      "Path": "http://o.ypgimg.com/content/2016/5/3/9df4e940-517b-4f30-846c-482121a39abc.jpg",
+                      "ImageUrl": "http://o.ypgimg.com/content/2016/5/3/9df4e940-517b-4f30-846c-482121a39abc.jpg",
+                      "SubTitle": "",
+                      "TargetAction": {
+                      "Type": 10,
+                      "Param": "http://m.yapingguo.com/app/zhuanti/2016022206380828-mushroom.shtml?from=mindex_a_4-ta_20160503_duiba"
+                      },
+                      "BeginTime": "0001/01/01 00:00:00",
+                      "EndTime": "0001/01/01 00:00:00"
+                      },
+                      {
+                      "Description": "",
+                      "Title": "感恩母亲",
+                      "Path": "http://o.ypgimg.com/content/2016/5/4/292bcd30-367d-4394-88c7-feaa9c3a3bbf.jpg",
+                      "ImageUrl": "http://o.ypgimg.com/content/2016/5/4/292bcd30-367d-4394-88c7-feaa9c3a3bbf.jpg",
+                      "SubTitle": "",
+                      "TargetAction": {
+                      "Type": 10,
+                      "Param": "http://promo.yapingguo.com/zhuanti/app-promo160504/?from=mindex_a_2-ta_20160504_mother"
+                      },
+                      "BeginTime": "0001/01/01 00:00:00",
+                      "EndTime": "0001/01/01 00:00:00"
+                      },
+                      {
+                      "Description": "",
+                      "Title": "传统滋补",
+                      "Path": "http://o.ypgimg.com/content/2016/4/26/0f446716-eaca-4c18-b3ca-655beeedc98a.jpg",
+                      "ImageUrl": "http://o.ypgimg.com/content/2016/4/26/0f446716-eaca-4c18-b3ca-655beeedc98a.jpg",
+                      "SubTitle": "",
+                      "TargetAction": {
+                      "Type": 10,
+                      "Param": "http://promo.yapingguo.com/zhuanti/app-promo16042601/?from=index_a_5-ta_20160426_zibuyangsheng"
+                      },
+                      "BeginTime": "0001/01/01 00:00:00",
+                      "EndTime": "0001/01/01 00:00:00"
+                      },
+                      {
+                      "Description": "",
+                      "Title": "养娃不费钱",
+                      "Path": "http://o.ypgimg.com/content/2016/5/6/aa27b3a9-c69d-44a7-a3b7-1981a7ebc3e1.jpg",
+                      "ImageUrl": "http://o.ypgimg.com/content/2016/5/6/aa27b3a9-c69d-44a7-a3b7-1981a7ebc3e1.jpg",
+                      "SubTitle": "",
+                      "TargetAction": {
+                      "Type": 10,
+                      "Param": "http://m.yapingguo.com/app/zhuanti/2016041509361402-mushroom.shtml?from=mindex_a_3-ta_20160506_muyingdamaichang2"
+                      },
+                      "BeginTime": "0001/01/01 00:00:00",
+                      "EndTime": "0001/01/01 00:00:00"
+                      }
+                      ],
+        "Entrances4": [
+                       {
+                       "Description": "Global purchase",
+                       "Title": "全球购",
+                       "Path": "http://o.ypgimg.com/content/app/index/home_1@3x.png",
+                       "ImageUrl": "http://o.ypgimg.com/content/app/index/home_1@3x.png",
+                       "SubTitle": "Global purchase",
+                       "TargetAction": {
+                       "Type": 10,
+                       "Param": "http://172.16.2.6/block/js/target.html"
+                       },
+                       "BeginTime": "0001/01/01 00:00:00",
+                       "EndTime": "0001/01/01 00:00:00"
+                       },
+                       {
+                       "Description": "Brand Hall",
+                       "Title": "品牌馆",
+                       "Path": "http://o.ypgimg.com/content/app/index/home_2@3x.png",
+                       "ImageUrl": "http://o.ypgimg.com/content/app/index/home_2@3x.png",
+                       "SubTitle": "Brand Hall",
+                       "TargetAction": {
+                       "Type": 10,
+                       "Param": "http://m.yapingguo.com/app/brand.shtml"
+                       },
+                       "BeginTime": "0001/01/01 00:00:00",
+                       "EndTime": "0001/01/01 00:00:00"
+                       },
+                       {
+                       "Description": "Common health",
+                       "Title": "热销商品",
+                       "Path": "http://o.ypgimg.com/content/app/index/home_3@3x.png",
+                       "ImageUrl": "http://o.ypgimg.com/content/app/index/home_3@3x.png",
+                       "SubTitle": "Common health",
+                       "TargetAction": {
+                       "Type": 10,
+                       "Param": "http://wa.yapingguo.com/health/app/select"
+                       },
+                       "BeginTime": "0001/01/01 00:00:00",
+                       "EndTime": "0001/01/01 00:00:00"
+                       },
+                       {
+                       "Description": "classification",
+                       "Title": "全部分类",
+                       "Path": "http://o.ypgimg.com/content/app/index/home_4@3x.png",
+                       "ImageUrl": "http://o.ypgimg.com/content/app/index/home_4@3x.png",
+                       "SubTitle": "classification",
+                       "TargetAction": {
+                       "Type": 10,
+                       "Param": "http://m.yapingguo.com/app/categoryv2.shtml"
+                       },
+                       "BeginTime": "0001/01/01 00:00:00",
+                       "EndTime": "0001/01/01 00:00:00"
+                       }
+                       ],
+        "SeckillInfo": {
+            "SeckillCountdown": 595912,
+            "NumberOfPeople": 0,
+            "SeckillEndTime": "2016-05-13T09:20:00",
+            "SeckillName": "明星爆款 超值秒杀",
+            "SeckillDesc": "",
+            "SeckillDescImageUrl": "",
+            "SeckillList": [
+                            {
+                            "ItemCode": "292546929",
+                            "ImageNameFull": "http://p.ypgimg.com/292/546/929/292546929/small/8ea73b6069bd31a.jpg",
+                            "Name": "别名-优莎娜 基础综合维生素片",
+                            "Features": "",
+                            "DisCount": 0,
+                            "MarketPrice": "520",
+                            "PromotionPrice": "252",
+                            "PromotionDescription": "",
+                            "InStock": true,
+                            "ShortName": "副标题-1xxx",
+                            "CountryName": "美国",
+                            "BrandCountryLogo": "http://o.ypgimg.com/flag/58.png",
+                            "BuyNumber": 216,
+                            "TargetAction": {
+                            "Type": 30,
+                            "Param": "sku=292546929&from=mindex_seckill_1-s_292546929"
+                            }
+                            },
+                            {
+                            "ItemCode": "292549033",
+                            "ImageNameFull": "http://p.ypgimg.com/292/549/033/292549033/small/8a952082ac469e66.jpg",
+                            "Name": "副标题-2xxxxxxxxxxxxx",
+                            "Features": "",
+                            "DisCount": 0,
+                            "MarketPrice": "416",
+                            "PromotionPrice": "135",
+                            "PromotionDescription": "",
+                            "InStock": true,
+                            "ShortName": "别名-莱萃美 深海鱼油软胶囊",
+                            "CountryName": "美国",
+                            "BrandCountryLogo": "http://o.ypgimg.com/flag/24.png",
+                            "BuyNumber": 226,
+                            "TargetAction": {
+                            "Type": 30,
+                            "Param": "sku=292549033&from=mindex_seckill_2-s_292549033"
+                            }
+                            },
+                            {
+                            "ItemCode": "292548863",
+                            "ImageNameFull": "http://p.ypgimg.com/292/548/863/292548863/small/1f681eea2b035302.jpg",
+                            "Name": "副标题-3xxx",
+                            "Features": "",
+                            "DisCount": 0,
+                            "MarketPrice": "105",
+                            "PromotionPrice": "50",
+                            "PromotionDescription": "",
+                            "InStock": false,
+                            "ShortName": "普丽普莱/Puritan's Pride 螯合锌营养片50mg*100片",
+                            "CountryName": "美国",
+                            "BrandCountryLogo": "http://o.ypgimg.com/flag/3.png",
+                            "BuyNumber": 15,
+                            "TargetAction": {
+                            "Type": 30,
+                            "Param": "sku=292548863&from=mindex_seckill_3-s_292548863"
+                            }
+                            },
+                            {
+                            "ItemCode": "292549030",
+                            "ImageNameFull": "http://p.ypgimg.com/292/549/030/292549030/small/1abbacf8888e6c45.jpg",
+                            "Name": "1",
+                            "Features": "",
+                            "DisCount": 0,
+                            "MarketPrice": "262",
+                            "PromotionPrice": "94",
+                            "PromotionDescription": "",
+                            "InStock": false,
+                            "ShortName": "健安喜 左旋肉碱胶囊",
+                            "CountryName": "美国",
+                            "BrandCountryLogo": "http://o.ypgimg.com/flag/13.png",
+                            "BuyNumber": 16,
+                            "TargetAction": {
+                            "Type": 30,
+                            "Param": "sku=292549030&from=mindex_seckill_4-s_292549030"
+                            }
+                            },
+                            {
+                            "ItemCode": "292549028",
+                            "ImageNameFull": "http://p.ypgimg.com/292/549/028/292549028/small/6639030a1cb34439.jpg",
+                            "Name": "1",
+                            "Features": "",
+                            "DisCount": 0,
+                            "MarketPrice": "348",
+                            "PromotionPrice": "125",
+                            "PromotionDescription": "",
+                            "InStock": false,
+                            "ShortName": "健安喜 葡萄籽精华胶",
+                            "CountryName": "美国",
+                            "BrandCountryLogo": "http://o.ypgimg.com/flag/13.png",
+                            "BuyNumber": 19,
+                            "TargetAction": {
+                            "Type": 30,
+                            "Param": "sku=292549028&from=mindex_seckill_5-s_292549028"
+                            }
+                            },
+                            {
+                            "ItemCode": "292546892",
+                            "ImageNameFull": "http://p.ypgimg.com/292/546/892/292546892/small/eac5eb90b18d2f11.jpg",
+                            "Name": "1",
+                            "Features": "",
+                            "DisCount": 0,
+                            "MarketPrice": "252",
+                            "PromotionPrice": "91",
+                            "PromotionDescription": "",
+                            "InStock": false,
+                            "ShortName": "安利 钙镁片",
+                            "CountryName": "美国",
+                            "BrandCountryLogo": "http://o.ypgimg.com/flag/50.png",
+                            "BuyNumber": 20,
+                            "TargetAction": {
+                            "Type": 30,
+                            "Param": "sku=292546892&from=mindex_seckill_6-s_292546892"
+                            }
+                            },
+                            {
+                            "ItemCode": "292547662",
+                            "ImageNameFull": "http://p.ypgimg.com/292/547/662/292547662/small/2f03837a746ff558.jpg",
+                            "Name": "aaa1",
+                            "Features": "",
+                            "DisCount": 0,
+                            "MarketPrice": "278",
+                            "PromotionPrice": "80",
+                            "PromotionDescription": "",
+                            "InStock": false,
+                            "ShortName": "普丽普莱/Puritan's Pride 雨生红球藻提取物软胶囊30粒 美国原装进口",
+                            "CountryName": "美国",
+                            "BrandCountryLogo": "http://o.ypgimg.com/flag/3.png",
+                            "BuyNumber": 0,
+                            "TargetAction": {
+                            "Type": 30,
+                            "Param": "sku=292547662&from=mindex_seckill_7-s_292547662"
+                            }
+                            },
+                            {
+                            "ItemCode": "292546891",
+                            "ImageNameFull": "http://p.ypgimg.com/292/546/891/292546891/small/153a2cba32140690.jpg",
+                            "Name": "1",
+                            "Features": "",
+                            "DisCount": 0,
+                            "MarketPrice": "398",
+                            "PromotionPrice": "138",
+                            "PromotionDescription": "",
+                            "InStock": false,
+                            "ShortName": "安利 蛋白质粉",
+                            "CountryName": "美国",
+                            "BrandCountryLogo": "http://o.ypgimg.com/flag/50.png",
+                            "BuyNumber": 43,
+                            "TargetAction": {
+                            "Type": 30,
+                            "Param": "sku=292546891&from=mindex_seckill_8-s_292546891"
+                            }
+                            }
+                            ],
+            "TargetAction": null
+        },
+        "Ads": [
+                {
+                "DynamicAdType": 73,
+                "Title": "测试运营位1：拼图模版",
+                "AdList": [
+                           {
+                           "Title": "图一",
+                           "SubTitle": "",
+                           "Description": "",
+                           "ImageUrl": "http://o.ypgimg.com/content/test/9/images1/1_01.png",
+                           "TargetAction": {
+                           "Type": 20,
+                           "Param": "from=index_fn_2_1_2-c_20160129_renqun_1934suinv&cat=300000058"
+                           },
+                           "BeginTime": "0001/01/01 00:00:00",
+                           "EndTime": "0001/01/01 00:00:00",
+                           "LinkBlockName": "",
+                           "Products": []
+                           },
+                           {
+                           "Title": "图二",
+                           "SubTitle": "",
+                           "Description": "",
+                           "ImageUrl": "http://o.ypgimg.com/content/test/9/images1/1_02.png",
+                           "TargetAction": {
+                           "Type": 20,
+                           "Param": "from=index_fn_2_1_2-c_20160129_renqun_1934suinv&cat=300000003"
+                           },
+                           "BeginTime": "0001/01/01 00:00:00",
+                           "EndTime": "0001/01/01 00:00:00",
+                           "LinkBlockName": "",
+                           "Products": []
+                           },
+                           {
+                           "Title": "图三",
+                           "SubTitle": "",
+                           "Description": "",
+                           "ImageUrl": "http://o.ypgimg.com/content/test/9/images1/1_03.png",
+                           "TargetAction": {
+                           "Type": 0,
+                           "Param": ""
+                           },
+                           "BeginTime": "0001/01/01 00:00:00",
+                           "EndTime": "0001/01/01 00:00:00",
+                           "LinkBlockName": "",
+                           "Products": []
+                           },
+                           {
+                           "Title": "图四",
+                           "SubTitle": "",
+                           "Description": "",
+                           "ImageUrl": "http://o.ypgimg.com/content/test/9/images1/1_04.png",
+                           "TargetAction": {
+                           "Type": 0,
+                           "Param": ""
+                           },
+                           "BeginTime": "0001/01/01 00:00:00",
+                           "EndTime": "0001/01/01 00:00:00",
+                           "LinkBlockName": "",
+                           "Products": []
+                           },
+                           {
+                           "Title": "图五",
+                           "SubTitle": "",
+                           "Description": "",
+                           "ImageUrl": "http://p.ypgimg.com/292/546/956/292546956/small/2f5683607b4e3348.jpg",
+                           "TargetAction": {
+                           "Type": 0,
+                           "Param": ""
+                           },
+                           "BeginTime": "0001/01/01 00:00:00",
+                           "EndTime": "0001/01/01 00:00:00",
+                           "LinkBlockName": "",
+                           "Products": []
+                           },
+                           {
+                           "Title": "图六",
+                           "SubTitle": "",
+                           "Description": "",
+                           "ImageUrl": "http://o.ypgimg.com/content/test/9/images1/1_06.png",
+                           "TargetAction": {
+                           "Type": 0,
+                           "Param": ""
+                           },
+                           "BeginTime": "0001/01/01 00:00:00",
+                           "EndTime": "0001/01/01 00:00:00",
+                           "LinkBlockName": "",
+                           "Products": []
+                           },
+                           {
+                           "Title": "图七",
+                           "SubTitle": "",
+                           "Description": "",
+                           "ImageUrl": "http://o.ypgimg.com/content/test/9/images1/1_07.png",
+                           "TargetAction": {
+                           "Type": 0,
+                           "Param": ""
+                           },
+                           "BeginTime": "0001/01/01 00:00:00",
+                           "EndTime": "0001/01/01 00:00:00",
+                           "LinkBlockName": "",
+                           "Products": []
+                           },
+                           {
+                           "Title": "图八",
+                           "SubTitle": "",
+                           "Description": "",
+                           "ImageUrl": "http://o.ypgimg.com/content/test/9/images1/1_08.png",
+                           "TargetAction": {
+                           "Type": 0,
+                           "Param": ""
+                           },
+                           "BeginTime": "0001/01/01 00:00:00",
+                           "EndTime": "0001/01/01 00:00:00",
+                           "LinkBlockName": "",
+                           "Products": []
+                           },
+                           {
+                           "Title": "图九",
+                           "SubTitle": "",
+                           "Description": "",
+                           "ImageUrl": "http://o.ypgimg.com/content/test/9/images1/1_09.png",
+                           "TargetAction": {
+                           "Type": 0,
+                           "Param": ""
+                           },
+                           "BeginTime": "0001/01/01 00:00:00",
+                           "EndTime": "0001/01/01 00:00:00",
+                           "LinkBlockName": "",
+                           "Products": []
+                           }
+                           ],
+                "TargetAction": {
+                "Type": 0,
+                "Param": ""
+                }
+                },
+                {
+                "DynamicAdType": 72,
+                "Title": "测试运营位2：专题模板",
+                "AdList": [
+                           {
+                           "Title": "女神专场111",
+                           "SubTitle": "",
+                           "Description": "",
+                           "ImageUrl": "http://o.ypgimg.com/content/2016/4/7/36ae34cb-6bdf-4d85-80da-a4bea873738b.png",
+                           "TargetAction": {
+                           "Type": 20,
+                           "Param": "cat=300000058-300000098-300000106"
+                           },
+                           "BeginTime": "0001/01/01 00:00:00",
+                           "EndTime": "0001/01/01 00:00:00",
+                           "LinkBlockName": "418huiyuan",
+                           "Products": [
+                                        {
+                                        "ItemCode": "292549942",
+                                        "Name": "澳大利亚原产 Swisse 胶原蛋白液500ml*2瓶 天然血橙精华 美白养颜 免税免邮",
+                                        "MarketPrice": "596",
+                                        "Price": "215",
+                                        "ResourceName": "http://p.ypgimg.com/292/549/942/292549942/small/3c53b370048ca138.jpg",
+                                        "TargetAction": {
+                                        "Type": 30,
+                                        "Param": "sku=292549942&from=mindex_recommend1_1-s_292549942"
+                                        }
+                                        },
+                                        {
+                                        "ItemCode": "292549536",
+                                        "Name": "美国原产 普丽普莱/Pritan's Pride 亚麻籽油软胶囊120粒 健脑促智 增强记忆 免税免邮",
+                                        "MarketPrice": "178",
+                                        "Price": "88",
+                                        "ResourceName": "http://p.ypgimg.com/292/549/536/292549536/small/84fb3a8659d76f95.jpg",
+                                        "TargetAction": {
+                                        "Type": 30,
+                                        "Param": "sku=292549536&from=mindex_recommend1_2-s_292549536"
+                                        }
+                                        },
+                                        {
+                                        "ItemCode": "292549558",
+                                        "Name": "美国原产 健安喜/GNC 三倍高浓缩深海鱼油1500mg*120粒 含DHA、EPA 调节三高 健脑益智 延缓衰老 免税免邮",
+                                        "MarketPrice": "379",
+                                        "Price": "219",
+                                        "ResourceName": "http://p.ypgimg.com/292/549/558/292549558/small/5fcc9970f275c23f.jpg",
+                                        "TargetAction": {
+                                        "Type": 30,
+                                        "Param": "sku=292549558&from=mindex_recommend1_3-s_292549558"
+                                        }
+                                        },
+                                        {
+                                        "ItemCode": "292549649",
+                                        "Name": "双心/Doppel Herz 辅酶Q10软胶囊30粒 德国原产 调节血脂 美容养颜 免税免邮",
+                                        "MarketPrice": "278",
+                                        "Price": "75",
+                                        "ResourceName": "http://p.ypgimg.com/292/549/649/292549649/small/fb61db4069e8c0d7.jpg",
+                                        "TargetAction": {
+                                        "Type": 30,
+                                        "Param": "sku=292549649&from=mindex_recommend1_4-s_292549649"
+                                        }
+                                        },
+                                        {
+                                        "ItemCode": "292549648",
+                                        "Name": "双心/Doppel Herz 蔓越莓＋石榴精华胶囊30粒 德国原产 美容养颜 延缓脑神经衰老 免税免邮",
+                                        "MarketPrice": "398",
+                                        "Price": "179",
+                                        "ResourceName": "http://p.ypgimg.com/292/549/648/292549648/small/ad8e580144c3c6c4.jpg",
+                                        "TargetAction": {
+                                        "Type": 30,
+                                        "Param": "sku=292549648&from=mindex_recommend1_5-s_292549648"
+                                        }
+                                        },
+                                        {
+                                        "ItemCode": "292549511",
+                                        "Name": "普丽普莱/Pritan's Pride 氨糖胶囊1000mg*240粒 美国原产 帮助修复关节软骨 免税免邮",
+                                        "MarketPrice": "291",
+                                        "Price": "99",
+                                        "ResourceName": "http://p.ypgimg.com/292/549/511/292549511/small/81cc65e8fa702f16.jpg",
+                                        "TargetAction": {
+                                        "Type": 30,
+                                        "Param": "sku=292549511&from=mindex_recommend1_6-s_292549511"
+                                        }
+                                        }
+                                        ]
+                           },
+                           {
+                           "Title": "女神专场222",
+                           "SubTitle": "",
+                           "Description": "",
+                           "ImageUrl": "http://o.ypgimg.com/content/2016/4/7/36ae34cb-6bdf-4d85-80da-a4bea873738b.png",
+                           "TargetAction": {
+                           "Type": 20,
+                           "Param": "cat=300000058-300000098-300000106"
+                           },
+                           "BeginTime": "0001/01/01 00:00:00",
+                           "EndTime": "0001/01/01 00:00:00",
+                           "LinkBlockName": "",
+                           "Products": []
+                           }
+                           ],
+                "TargetAction": {
+                "Type": 10,
+                "Param": "http://172.16.2.6/block/js/target.html?from=19823479123"
+                }
+                },
+                {
+                "DynamicAdType": 73,
+                "Title": "测试运营位3：拼图模版",
+                "AdList": [
+                           {
+                           "Title": "图一",
+                           "SubTitle": "",
+                           "Description": "",
+                           "ImageUrl": "http://o.ypgimg.com/content/test/6/images2/1_01.png",
+                           "TargetAction": {
+                           "Type": 0,
+                           "Param": ""
+                           },
+                           "BeginTime": "0001/01/01 00:00:00",
+                           "EndTime": "0001/01/01 00:00:00",
+                           "LinkBlockName": "",
+                           "Products": []
+                           },
+                           {
+                           "Title": "图二",
+                           "SubTitle": "",
+                           "Description": "",
+                           "ImageUrl": "http://o.ypgimg.com/content/test/6/images2/1_02.png",
+                           "TargetAction": {
+                           "Type": 0,
+                           "Param": ""
+                           },
+                           "BeginTime": "0001/01/01 00:00:00",
+                           "EndTime": "0001/01/01 00:00:00",
+                           "LinkBlockName": "",
+                           "Products": []
+                           },
+                           {
+                           "Title": "图三",
+                           "SubTitle": "",
+                           "Description": "",
+                           "ImageUrl": "http://o.ypgimg.com/content/test/6/images2/1_03.png",
+                           "TargetAction": {
+                           "Type": 0,
+                           "Param": ""
+                           },
+                           "BeginTime": "0001/01/01 00:00:00",
+                           "EndTime": "0001/01/01 00:00:00",
+                           "LinkBlockName": "",
+                           "Products": []
+                           },
+                           {
+                           "Title": "图四",
+                           "SubTitle": "",
+                           "Description": "",
+                           "ImageUrl": "http://o.ypgimg.com/content/test/6/images2/1_04.png",
+                           "TargetAction": {
+                           "Type": 0,
+                           "Param": ""
+                           },
+                           "BeginTime": "0001/01/01 00:00:00",
+                           "EndTime": "0001/01/01 00:00:00",
+                           "LinkBlockName": "",
+                           "Products": []
+                           },
+                           {
+                           "Title": "图五",
+                           "SubTitle": "",
+                           "Description": "",
+                           "ImageUrl": "http://o.ypgimg.com/content/test/6/images2/1_05.png",
+                           "TargetAction": {
+                           "Type": 0,
+                           "Param": ""
+                           },
+                           "BeginTime": "0001/01/01 00:00:00",
+                           "EndTime": "0001/01/01 00:00:00",
+                           "LinkBlockName": "",
+                           "Products": []
+                           },
+                           {
+                           "Title": "图六",
+                           "SubTitle": "",
+                           "Description": "",
+                           "ImageUrl": "http://o.ypgimg.com/content/test/6/images2/1_06.png",
+                           "TargetAction": {
+                           "Type": 0,
+                           "Param": ""
+                           },
+                           "BeginTime": "0001/01/01 00:00:00",
+                           "EndTime": "0001/01/01 00:00:00",
+                           "LinkBlockName": "",
+                           "Products": []
+                           }
+                           ],
+                "TargetAction": {
+                "Type": 0,
+                "Param": ""
+                }
+                }
+                ]
+    },
+    "ExceptionMsg": "",
+    "RequestId": "993cd40e-adac-4e5c-a09f-56e1c27807be"
+}

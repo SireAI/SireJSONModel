@@ -7,18 +7,21 @@
 //
 
 import UIKit
-
+import SireJSONModel
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+	override func viewDidLoad() {
+		super.viewDidLoad()
+		let path = NSBundle.mainBundle().pathForResource("data", ofType: "json")
+		let data = NSData(contentsOfFile: path!)
+		let jsonData = MallInfor(jsonNSData: data!)
+		print("\(jsonData.toDictionary())")
+	}
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+	override func didReceiveMemoryWarning() {
+		super.didReceiveMemoryWarning()
+		// Dispose of any resources that can be recreated.
+	}
 
 }
 
