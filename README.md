@@ -48,7 +48,12 @@ send me some feedback. Thanks!
 		let jsonData = MallInfor(jsonNSData: data!)
 		print("\(jsonData.toDictionary())")
 ```
-
+####other API
+```Swift
+init(jsonDictionary: [String: AnyObject])
+init(jsonString: String?)
+init(jsonNSData: NSData)
+```
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
