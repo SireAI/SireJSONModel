@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040ABF7390B906347DDA765998889023 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		0B328CD3A04658C8133C5B61088965CD /* SireJSONModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1BBBA22E05AD6D7929DADE04EB9874 /* SireJSONModel-dummy.m */; };
+		0C4E6F25A7AC98C3DBC411BEA1A31E83 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AA68CF6A01D25C64EA453C0A5416F6 /* ReplaceMe.swift */; };
+		105674971E296BDA2839D1EF0DA97AEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		738627761F277A33901F47B3D130BDCC /* Pods-SireJSONModel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BCE1E26A8F0D07CF4CF7C32EE7B0910 /* Pods-SireJSONModel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9095940124D5440ECD7577BE7D52E27F /* Pods-SireJSONModel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2A7C36F5B7C7921370A7E8CD1DFF43 /* Pods-SireJSONModel_Tests-dummy.m */; };
+		9E0D3B9C3B2D4A5D318B33CEF34ADD11 /* Pods-SireJSONModel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD6A71E0E386BEC8D1DD4B2D393BDA8 /* Pods-SireJSONModel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AABF1B1E76DA759DE25F2C7F53B63A24 /* Pods-SireJSONModel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F7469B60BECAF78DF1BC2436FC94F8 /* Pods-SireJSONModel_Example-dummy.m */; };
+		B4FA3E86B19F5255E96002DE7874429E /* SireJSONModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5FE22596247965F821EFD118344096 /* SireJSONModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C725D7752733AAAF1272A34ECB5D448A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D4A85F1EF44A847A5D2864988863A06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55CEE6630B9970694F85A2E99CD972E2;
+			remoteInfo = SireJSONModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A20FED587BB9B1E781A480849FB9EFF /* SireJSONModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SireJSONModel.xcconfig; sourceTree = "<group>"; };
+		0C333777C09A681120D7F4E5C4D8CB9D /* Pods-SireJSONModel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SireJSONModel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1BA1F9C388E667989C51D7D9353D3673 /* Pods-SireJSONModel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SireJSONModel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1BD45681CA9F0B02F46A96BAEA3DA85B /* Pods-SireJSONModel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SireJSONModel_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		22D964BDD0D0DBDA74F26A546E3ADAD6 /* SireJSONModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SireJSONModel-prefix.pch"; sourceTree = "<group>"; };
+		2989004E0BBD1787233DFA286F1B8846 /* Pods-SireJSONModel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SireJSONModel_Example-resources.sh"; sourceTree = "<group>"; };
+		32F7469B60BECAF78DF1BC2436FC94F8 /* Pods-SireJSONModel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SireJSONModel_Example-dummy.m"; sourceTree = "<group>"; };
+		4203DCB23F13BFC9B9381C4D56828B75 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BDE8409A1384583C0038D3CB24838B0 /* Pods-SireJSONModel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SireJSONModel_Tests.modulemap"; sourceTree = "<group>"; };
+		5239986D63F05CF0AC23D2A2DFCB7EEA /* Pods-SireJSONModel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SireJSONModel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		53C8185D8FD8E98F534EB34E53426128 /* Pods_SireJSONModel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SireJSONModel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5435E3378F39E53C9E07F703D9BDBEDC /* Pods-SireJSONModel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SireJSONModel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5A786BC8242401022152271B33D31778 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D08CA42895FF96CDA88DAB7D3058FF /* Pods-SireJSONModel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SireJSONModel_Example.modulemap"; sourceTree = "<group>"; };
+		65F98B1F8AC6A4E37F11101A5894B695 /* Pods-SireJSONModel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SireJSONModel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6BCE1E26A8F0D07CF4CF7C32EE7B0910 /* Pods-SireJSONModel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SireJSONModel_Example-umbrella.h"; sourceTree = "<group>"; };
+		6E1BBBA22E05AD6D7929DADE04EB9874 /* SireJSONModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SireJSONModel-dummy.m"; sourceTree = "<group>"; };
+		6F2A7C36F5B7C7921370A7E8CD1DFF43 /* Pods-SireJSONModel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SireJSONModel_Tests-dummy.m"; sourceTree = "<group>"; };
+		77A1B7DCD6643896DA5001FB2A0AA38F /* Pods-SireJSONModel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SireJSONModel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		79AA68CF6A01D25C64EA453C0A5416F6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		7A5FE22596247965F821EFD118344096 /* SireJSONModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SireJSONModel-umbrella.h"; sourceTree = "<group>"; };
+		8704D92C6B66C338BB8E124AEF782CCA /* Pods-SireJSONModel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SireJSONModel_Tests-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96E19B4D6A52BA994E8892CF441ECC91 /* Pods-SireJSONModel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SireJSONModel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C1D7C4528B498448D4BD860F11104DE9 /* Pods-SireJSONModel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SireJSONModel_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0AA837480F527F04670509180A278D5 /* SireJSONModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SireJSONModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2CEEF00F302E4B9B7669A68527A1173 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBD6A71E0E386BEC8D1DD4B2D393BDA8 /* Pods-SireJSONModel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SireJSONModel_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DCEC710D0E20B8F9595E6658596035A4 /* Pods_SireJSONModel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SireJSONModel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE78F6120BEFB10C550CE802DD6C25E0 /* Pods-SireJSONModel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SireJSONModel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F81BFE1B83E2D86A5CC108048B635E26 /* SireJSONModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SireJSONModel.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		112117E2E5BDBBACC1F7EC5AF8972A06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040ABF7390B906347DDA765998889023 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24E91A7D3196EE46B3C32119F92C0C21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105674971E296BDA2839D1EF0DA97AEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E1996A786B806B9EE0D95ADF61BCE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C725D7752733AAAF1272A34ECB5D448A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15D4E8B119CBA0B17ADC4BEFFB3EBEBB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4203DCB23F13BFC9B9381C4D56828B75 /* Info.plist */,
+				F81BFE1B83E2D86A5CC108048B635E26 /* SireJSONModel.modulemap */,
+				0A20FED587BB9B1E781A480849FB9EFF /* SireJSONModel.xcconfig */,
+				6E1BBBA22E05AD6D7929DADE04EB9874 /* SireJSONModel-dummy.m */,
+				22D964BDD0D0DBDA74F26A546E3ADAD6 /* SireJSONModel-prefix.pch */,
+				7A5FE22596247965F821EFD118344096 /* SireJSONModel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SireJSONModel";
+			sourceTree = "<group>";
+		};
+		20D0438FD401263C68BA85E9719B7926 /* SireJSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				A663DF393402D4A599CA8AA6F76A1B88 /* SireJSONModel */,
+				15D4E8B119CBA0B17ADC4BEFFB3EBEBB /* Support Files */,
+			);
+			name = SireJSONModel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		22B5BC63E420A5F53116A40733EBC670 /* Pods-SireJSONModel_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5A786BC8242401022152271B33D31778 /* Info.plist */,
+				63D08CA42895FF96CDA88DAB7D3058FF /* Pods-SireJSONModel_Example.modulemap */,
+				5435E3378F39E53C9E07F703D9BDBEDC /* Pods-SireJSONModel_Example-acknowledgements.markdown */,
+				5239986D63F05CF0AC23D2A2DFCB7EEA /* Pods-SireJSONModel_Example-acknowledgements.plist */,
+				32F7469B60BECAF78DF1BC2436FC94F8 /* Pods-SireJSONModel_Example-dummy.m */,
+				65F98B1F8AC6A4E37F11101A5894B695 /* Pods-SireJSONModel_Example-frameworks.sh */,
+				2989004E0BBD1787233DFA286F1B8846 /* Pods-SireJSONModel_Example-resources.sh */,
+				6BCE1E26A8F0D07CF4CF7C32EE7B0910 /* Pods-SireJSONModel_Example-umbrella.h */,
+				EE78F6120BEFB10C550CE802DD6C25E0 /* Pods-SireJSONModel_Example.debug.xcconfig */,
+				96E19B4D6A52BA994E8892CF441ECC91 /* Pods-SireJSONModel_Example.release.xcconfig */,
+			);
+			name = "Pods-SireJSONModel_Example";
+			path = "Target Support Files/Pods-SireJSONModel_Example";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6A2ED0D9DA4647F33336DAB0DC007693 /* Pods-SireJSONModel_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D2CEEF00F302E4B9B7669A68527A1173 /* Info.plist */,
+				4BDE8409A1384583C0038D3CB24838B0 /* Pods-SireJSONModel_Tests.modulemap */,
+				0C333777C09A681120D7F4E5C4D8CB9D /* Pods-SireJSONModel_Tests-acknowledgements.markdown */,
+				1BA1F9C388E667989C51D7D9353D3673 /* Pods-SireJSONModel_Tests-acknowledgements.plist */,
+				6F2A7C36F5B7C7921370A7E8CD1DFF43 /* Pods-SireJSONModel_Tests-dummy.m */,
+				1BD45681CA9F0B02F46A96BAEA3DA85B /* Pods-SireJSONModel_Tests-frameworks.sh */,
+				8704D92C6B66C338BB8E124AEF782CCA /* Pods-SireJSONModel_Tests-resources.sh */,
+				DBD6A71E0E386BEC8D1DD4B2D393BDA8 /* Pods-SireJSONModel_Tests-umbrella.h */,
+				77A1B7DCD6643896DA5001FB2A0AA38F /* Pods-SireJSONModel_Tests.debug.xcconfig */,
+				C1D7C4528B498448D4BD860F11104DE9 /* Pods-SireJSONModel_Tests.release.xcconfig */,
+			);
+			name = "Pods-SireJSONModel_Tests";
+			path = "Target Support Files/Pods-SireJSONModel_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F8279991992216E4290F7A1A1FEC7188 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				AA2642EBF136701C832979C043F15343 /* Products */,
+				E228E530085E3ABC3E6B96D327004A2D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8D85353D441954A330434D92FE5EC0D3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				79AA68CF6A01D25C64EA453C0A5416F6 /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A663DF393402D4A599CA8AA6F76A1B88 /* SireJSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				8D85353D441954A330434D92FE5EC0D3 /* Classes */,
+			);
+			path = SireJSONModel;
+			sourceTree = "<group>";
+		};
+		AA2642EBF136701C832979C043F15343 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53C8185D8FD8E98F534EB34E53426128 /* Pods_SireJSONModel_Example.framework */,
+				DCEC710D0E20B8F9595E6658596035A4 /* Pods_SireJSONModel_Tests.framework */,
+				D0AA837480F527F04670509180A278D5 /* SireJSONModel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E228E530085E3ABC3E6B96D327004A2D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				22B5BC63E420A5F53116A40733EBC670 /* Pods-SireJSONModel_Example */,
+				6A2ED0D9DA4647F33336DAB0DC007693 /* Pods-SireJSONModel_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F8279991992216E4290F7A1A1FEC7188 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20D0438FD401263C68BA85E9719B7926 /* SireJSONModel */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CA2050E7F022F7DD5BB73004F6E46687 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4FA3E86B19F5255E96002DE7874429E /* SireJSONModel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E469938EE4E3BBEF4AAB46EFBD101D08 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738627761F277A33901F47B3D130BDCC /* Pods-SireJSONModel_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E6A99FED01AA05419370A01ABDAB75 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0D3B9C3B2D4A5D318B33CEF34ADD11 /* Pods-SireJSONModel_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F0B1ED73C9EB42568B2B050075E23DE /* Pods-SireJSONModel_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6E45D623E86FBB909CB1E7C40BE7BC8 /* Build configuration list for PBXNativeTarget "Pods-SireJSONModel_Tests" */;
+			buildPhases = (
+				B12B2839C252D30AA4AF9B9B0E3E9B83 /* Sources */,
+				112117E2E5BDBBACC1F7EC5AF8972A06 /* Frameworks */,
+				E6E6A99FED01AA05419370A01ABDAB75 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SireJSONModel_Tests";
+			productName = "Pods-SireJSONModel_Tests";
+			productReference = DCEC710D0E20B8F9595E6658596035A4 /* Pods_SireJSONModel_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		55CEE6630B9970694F85A2E99CD972E2 /* SireJSONModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7541E29307E1B447481D0D119F46E240 /* Build configuration list for PBXNativeTarget "SireJSONModel" */;
+			buildPhases = (
+				A1F2470B93F5ED36C5E2BB7C5CF717C8 /* Sources */,
+				24E91A7D3196EE46B3C32119F92C0C21 /* Frameworks */,
+				CA2050E7F022F7DD5BB73004F6E46687 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SireJSONModel;
+			productName = SireJSONModel;
+			productReference = D0AA837480F527F04670509180A278D5 /* SireJSONModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A77027E3CFC47DCB7247E12EB0CF7E99 /* Pods-SireJSONModel_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F64DC0CB19F155CDAD7927EB44732B63 /* Build configuration list for PBXNativeTarget "Pods-SireJSONModel_Example" */;
+			buildPhases = (
+				D2FC11923EE5C7AA792C0834AEF9D117 /* Sources */,
+				37E1996A786B806B9EE0D95ADF61BCE8 /* Frameworks */,
+				E469938EE4E3BBEF4AAB46EFBD101D08 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BE26DBFFE5FE95DA0C2087ABE5C7882 /* PBXTargetDependency */,
+			);
+			name = "Pods-SireJSONModel_Example";
+			productName = "Pods-SireJSONModel_Example";
+			productReference = 53C8185D8FD8E98F534EB34E53426128 /* Pods_SireJSONModel_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = AA2642EBF136701C832979C043F15343 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A77027E3CFC47DCB7247E12EB0CF7E99 /* Pods-SireJSONModel_Example */,
+				0F0B1ED73C9EB42568B2B050075E23DE /* Pods-SireJSONModel_Tests */,
+				55CEE6630B9970694F85A2E99CD972E2 /* SireJSONModel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1F2470B93F5ED36C5E2BB7C5CF717C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C4E6F25A7AC98C3DBC411BEA1A31E83 /* ReplaceMe.swift in Sources */,
+				0B328CD3A04658C8133C5B61088965CD /* SireJSONModel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B12B2839C252D30AA4AF9B9B0E3E9B83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9095940124D5440ECD7577BE7D52E27F /* Pods-SireJSONModel_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2FC11923EE5C7AA792C0834AEF9D117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABF1B1E76DA759DE25F2C7F53B63A24 /* Pods-SireJSONModel_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BE26DBFFE5FE95DA0C2087ABE5C7882 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SireJSONModel;
+			target = 55CEE6630B9970694F85A2E99CD972E2 /* SireJSONModel */;
+			targetProxy = 9D4A85F1EF44A847A5D2864988863A06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AFC2EF7CB495A85A4E8A7D768BEFB84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE78F6120BEFB10C550CE802DD6C25E0 /* Pods-SireJSONModel_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SireJSONModel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SireJSONModel_Example/Pods-SireJSONModel_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SireJSONModel_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2C703D70966AD3B86A68C657C9EA1166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A20FED587BB9B1E781A480849FB9EFF /* SireJSONModel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SireJSONModel/SireJSONModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SireJSONModel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SireJSONModel/SireJSONModel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SireJSONModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		31875F63C7EE0A1D3FA4C48ACF281A06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1D7C4528B498448D4BD860F11104DE9 /* Pods-SireJSONModel_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SireJSONModel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SireJSONModel_Tests/Pods-SireJSONModel_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SireJSONModel_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		750581F41FBC3F8FE2C1FA333AE9268A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96E19B4D6A52BA994E8892CF441ECC91 /* Pods-SireJSONModel_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SireJSONModel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SireJSONModel_Example/Pods-SireJSONModel_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SireJSONModel_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DA281D4FDCF7D408D25190305AFF83C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A20FED587BB9B1E781A480849FB9EFF /* SireJSONModel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SireJSONModel/SireJSONModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SireJSONModel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SireJSONModel/SireJSONModel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SireJSONModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E46AB98666BAC6C4EB3FE09539E911D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77A1B7DCD6643896DA5001FB2A0AA38F /* Pods-SireJSONModel_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SireJSONModel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SireJSONModel_Tests/Pods-SireJSONModel_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SireJSONModel_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7541E29307E1B447481D0D119F46E240 /* Build configuration list for PBXNativeTarget "SireJSONModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA281D4FDCF7D408D25190305AFF83C5 /* Debug */,
+				2C703D70966AD3B86A68C657C9EA1166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F64DC0CB19F155CDAD7927EB44732B63 /* Build configuration list for PBXNativeTarget "Pods-SireJSONModel_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFC2EF7CB495A85A4E8A7D768BEFB84 /* Debug */,
+				750581F41FBC3F8FE2C1FA333AE9268A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6E45D623E86FBB909CB1E7C40BE7BC8 /* Build configuration list for PBXNativeTarget "Pods-SireJSONModel_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E46AB98666BAC6C4EB3FE09539E911D4 /* Debug */,
+				31875F63C7EE0A1D3FA4C48ACF281A06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

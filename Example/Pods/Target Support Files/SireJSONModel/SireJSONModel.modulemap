@@ -1,0 +1,6 @@
+framework module SireJSONModel {
+  umbrella header "SireJSONModel-umbrella.h"
+
+  export *
+  module * { export * }
+}

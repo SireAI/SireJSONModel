@@ -1,0 +1,16 @@
+PODS:
+  - SireJSONModel (0.1.0)
+
+DEPENDENCIES:
+  - SireJSONModel (from `../`)
+
+EXTERNAL SOURCES:
+  SireJSONModel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SireJSONModel: 55e9e908ea52de9afa3eaa9d442361554d9e413a
+
+PODFILE CHECKSUM: 99ddea10cd443a5237c09a232bc865d0fe59b6c2
+
+COCOAPODS: 1.0.0
