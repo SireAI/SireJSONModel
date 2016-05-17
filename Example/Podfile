@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SireJSONModel_Example' do
+  pod 'SireJSONModel', :path => '../'
+
+  target 'SireJSONModel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
