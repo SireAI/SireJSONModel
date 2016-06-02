@@ -138,6 +138,8 @@ public extension NSObject {
 					let objectString = getTypeName(valueType!)
 					let arrayModel = fillDataWithArray(objectString, array: value as! [[String: AnyObject]])
 					self.setValue(arrayModel, forKey: key)
+				case is NSNull:
+					setValue(nil, forKey: key)
 				default:
 					checkClassPropertyType(valueType!)
 					setPropertyValue(valueType!, value: value!, key: key)
@@ -244,7 +246,7 @@ extension SireJson {
 }
 
 extension Optional: SireJson {
- public	func toDictionary() -> AnyObject? {
+	public func toDictionary() -> AnyObject? {
 		if let x = self {
 			if let value = x as? SireJson {
 				return value.toDictionary()
